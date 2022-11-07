@@ -40,43 +40,18 @@ many Linux distributions!)
     
     ```source activate larva_locomotion```
 
-6. Install necessary packages by typing all of the below:
+6. Install necessary packages :
 
-    `conda install numpy -y`
-    
-    `conda install jupyterlab -y`
-    
-    `conda install matplotlib -y`
-    
-    `conda install pandas -y`
-    
-    `conda install -c anaconda pillow -y`
-    
-    `conda install scipy -y`
-    
-    `conda install -c conda-forge scikit-image -y`
-    
-    `conda install -c conda-forge ffmpeg -y`
-    
-    `conda install natsort -y`
-    
-    `pip install scikit-posthocs`
+    `pip install -r requirements.txt`
 
-    `pip install imageio-ffmpeg`
-
-    `pip install ffmpeg-python`
        
-7. Change directory to where you've downloaded the data package
-
-8. Type:
+7. Launch jupyter lab. Your standard browser should open (i.e. Chrome) and one tab should
+   say "JupyterLab". Most scripts in this
+   repository are jupyter notebooks.:
     
     `jupyter lab`
-    
-9. Your standard browser should open (i.e. Chrome) and one tab should
-   say "Home". This is the jupyter notebook. Most scripts in this
-   repository are jupyter notebooks.
-   
-10. Some of the scripts are pure python scripts. To run these, just
+
+8. Some of the scripts are pure python scripts. To run these, just
     cd to the relevant folder (e.g. "Movies") and run the script by
     typing "python Movie_1.py".
     
