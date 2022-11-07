@@ -1,6 +1,7 @@
 mesa
 pygame
 pandas
+tables
 matplotlib
 seaborn
 numpy

@@ -21,37 +21,24 @@ space on your harddrive!*
 
 # Installation of necessary packages
 
-1. Install either Miniconda (https://conda.io/miniconda.html) or 
-Anaconda (https://www.anaconda.com/download/).
-2. Install Git (https://git-scm.com/downloads) (already installed on 
-many Linux distributions!)
 
-3. Open Terminal(Mac/Linux) or Command Prompt(Windows)
+1. Either make sure python 3.9 is your default python interpreter, or optionally create a python 3.9 virtual environment and activate it: 
+    `python3.9 -m venv larva_locomotion`
+    `source larva_locomotion/bin/activate`
 
-4. Create a new environment using conda:
-    
-    `conda create -n larva_locomotion python=3.8 -y`
 
-5. Activate the environment in Windows by typing:
-
-    ``activate larva_locomotion``
-    
-    on Mac/Linux type:
-    
-    ```source activate larva_locomotion```
-
-6. Install necessary packages :
+2. Install necessary packages :
 
     `pip install -r requirements.txt`
 
        
-7. Launch jupyter lab. Your standard browser should open (i.e. Chrome) and one tab should
+3. Launch jupyter lab. Your standard browser should open (i.e. Chrome) and one tab should
    say "JupyterLab". Most scripts in this
    repository are jupyter notebooks.:
     
     `jupyter lab`
 
-8. Some of the scripts are pure python scripts. To run these, just
+4. Some of the scripts are pure python scripts. To run these, just
     cd to the relevant folder (e.g. "Movies") and run the script by
     typing "python Movie_1.py".
     
