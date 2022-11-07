@@ -21,24 +21,26 @@ space on your harddrive!*
 
 # Installation of necessary packages
 
+1. Make sure python3.9 is installed along with its virtual environment module :
+    `sudo apt install python3.9-venv`
 
-1. Create a python 3.9 virtual environment and activate it: 
-    `python3.9 -m venv larva_locomotion_venv`
-    `source larva_locomotion_venv/bin/activate`
+2. Create a python 3.9 virtual environment and activate it: 
+    `python3.9 -m venv larva_loco_venv`
+    `source larva_loco_venv/bin/activate`
 
 
-2. Install necessary packages :
+3. Install necessary packages :
 
     `pip install -r requirements.txt`
 
        
-3. Launch jupyter lab. Your standard browser should open (i.e. Chrome) and one tab should
+4. Launch jupyter lab. Your standard browser should open (i.e. Chrome) and one tab should
    say "JupyterLab". Most scripts in this
    repository are jupyter notebooks.:
     
     `jupyter lab`
 
-4. Some of the scripts are pure python scripts. To run these, just
+5. Some of the scripts are pure python scripts. To run these, just
     cd to the relevant folder (e.g. "Movies") and run the script by
     typing "python Movie_1.py".
     
