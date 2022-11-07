@@ -22,9 +22,9 @@ space on your harddrive!*
 # Installation of necessary packages
 
 
-1. Either make sure python 3.9 is your default python interpreter, or optionally create a python 3.9 virtual environment and activate it: 
-    `python3.9 -m venv larva_locomotion`
-    `source larva_locomotion/bin/activate`
+1. Create a python 3.9 virtual environment and activate it: 
+    `python3.9 -m venv larva_locomotion_venv`
+    `source larva_locomotion_venv/bin/activate`
 
 
 2. Install necessary packages :
